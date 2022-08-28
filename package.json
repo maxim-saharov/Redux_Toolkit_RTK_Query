@@ -1,5 +1,6 @@
 {
-  "name": "redux-profi-course",
+  "name": "redux-toolkit-rtk-query",
+  "homepage": "https://maxim-saharov.com.ua/redux-toolkit-rtk-query",
   "version": "0.1.0",
   "private": true,
   "dependencies": {

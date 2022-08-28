@@ -58,17 +58,17 @@ const PostContainer = () => {
       updatePost(post)
    }
 
-   // useEffect(() => {
-   //    setTimeout(() => {
-   //       setLimit(2)
-   //    }, 2000)
-   // }, [])
-   //
-   // useEffect(() => {
-   //    setTimeout(() => {
-   //       setLimit(4)
-   //    }, 4000)
-   // }, [])
+   useEffect(() => {
+      setTimeout(() => {
+         setLimit(2)
+      }, 2000)
+   }, [])
+
+   useEffect(() => {
+      setTimeout(() => {
+         setLimit(4)
+      }, 4000)
+   }, [])
 
    return (
       <div className='post__list'>

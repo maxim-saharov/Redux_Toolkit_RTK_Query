@@ -1,7 +1,7 @@
 # See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+/node_modules/
 /.pnp
 .pnp.js
 
@@ -9,7 +9,8 @@
 /coverage
 
 # production
-/build
+/build/
+/dist/
 
 # misc
 .DS_Store
@@ -21,4 +22,10 @@
 npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
-/.idea
+
+# other
+/.idea/
+/.vscode/
+/src/mailer/smart.php
+#git rm --cached smart.php
+#git commit -m "Remove smart.php only from git"

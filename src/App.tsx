@@ -43,17 +43,17 @@ function App() {
       dispatch(fetchUsers(1))
    }, [])
 
-   // useEffect(() => {
-   //    setTimeout(() => {
-   //       dispatch(fetchUsers(2))
-   //    }, 2000)
-   // }, [])
-   //
-   // useEffect(() => {
-   //    setTimeout(() => {
-   //       dispatch(fetchUsers(1))
-   //    }, 4000)
-   // }, [])
+   useEffect(() => {
+      setTimeout(() => {
+         dispatch(fetchUsers(2))
+      }, 2000)
+   }, [])
+
+   useEffect(() => {
+      setTimeout(() => {
+         dispatch(fetchUsers(1))
+      }, 4000)
+   }, [])
 
 
    return (
