@@ -1,0 +1,38 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "title": "строка",
+      "body": "typicode"
+    },
+    {
+      "id": 3,
+      "title": "88",
+      "body": "typicode"
+    },
+    {
+      "title": "999",
+      "body": "555",
+      "id": 4
+    },
+    {
+      "title": "999",
+      "body": "999",
+      "id": 5
+    },
+    {
+      "title": "7777",
+      "body": "ццц",
+      "id": 6
+    },
+    {
+      "title": "1",
+      "body": "xx",
+      "id": 7
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}
