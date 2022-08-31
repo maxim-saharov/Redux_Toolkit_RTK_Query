@@ -67,3 +67,14 @@ button {
    display: inline-block;
    padding-left: 15px;
 }
+
+.created-by {
+   padding: 15px 0;
+   text-align: center;
+   background-color: white;
+   border: 1px solid black;
+}
+
+.pad-left-10px {
+   padding-left: 10px;
+}

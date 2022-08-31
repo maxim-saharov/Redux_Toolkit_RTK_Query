@@ -1,27 +1,52 @@
 
-#### Redux Toolkit, createSlice, createAsyncThunk, RTK Query examples
+### ⛳️ Deployment
 
 ***
 
-##### Link to where publishes this project: [https://maxim-saharov.com.ua/redux-toolkit-rtk-query](https://maxim-saharov.com.ua/redux-toolkit-rtk-query)
+#### Link to where publishes this project: [https://maxim-saharov.com.ua/redux-toolkit-rtk-query](https://maxim-saharov.com.ua/redux-toolkit-rtk-query)
+
+Link to where publish other projects: [https://maxim-saharov.com.ua](https://maxim-saharov.com.ua)
 
 ***
 
 [//]: <> (
-How To deploy React App on Shared Hosting
-https://medium.com/@aforamitrai/how-to-deploy-react-app-on-shared-hosting-cpanel-d682b0342424#:~:text=In%20order%20to%20deploy%20react,need%20to%20build%20the%20app.&text=In%20your%20project%20directory%20it,account%20with%20your%20hosting%20address.&text=into%20your%20
+How To deploy React App on Shared Hosting - in package.json
+"homepage": "https://maxim-saharov.com.ua/FilmFinder",
+npm run build  // yarn build
+.htaccess также добавить на фттр в папку проекта
+//
+как что то добавить в маркдаун
+https://habr.com/ru/post/649363/
+тут просто что то пишем и потом копируем сердечки и т.д.
+https://lingojam.com/FancyLetters
+https://gist.github.com/rxaviers/7360908
+https://dillinger.io/
 )
 
-https://maxim-saharov.com.ua/redux-toolkit-rtk-query
 
+If you want deployment at your PC:
 
-yarn install (or npm install)
+* clone project
+* *yarn install* (or npm install)
+* in new terminal *json-server --watch db.json --port 5000*
+* *yarn start* (or npm start)
 
-yarn start (or npm start)
+And you can see project on [http://localhost:3000](http://localhost:3000 )
 
-in new terminal  
-json-server --watch db.json --port 5000
+***
 
-##### If you like this project don't forget to turn on a star for it)
+##### Tech stack:
 
+* React JSX, CSS
+* Only desktop version
+* TypeScript, Redux Toolkit, createSlice, createAsyncThunk, RTK Query examples
+* OMDb API 
+* Git, GitHub
 
+This project was created from this video  
+https://www.youtube.com/watch?v=Od5H_CiU2vM  
+A lot of thanks to Timur for this project!  
+Don't forget to turn on him a star 💛 for it)  
+Here Link to original https://github.com/utimur/redux_toolkit_rtk_query
+
+#### If you like 👍 my project too, don't forget to turn on me a star 💛 for it)

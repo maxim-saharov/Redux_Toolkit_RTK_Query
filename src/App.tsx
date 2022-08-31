@@ -98,6 +98,31 @@ function App() {
             <PostContainer />
             <PostContainer2 />
          </div>
+
+
+         <div className='created-by'>
+            Redux Toolkit RTK Query ©2022 Created by
+
+            <a
+               href={`https://maxim-saharov.com.ua`}
+               target='_blank' rel='noopener noreferrer'
+               className='pad-left-10px'
+            >
+               Maxim Saharov
+            </a>
+
+            <span className='pad-left-10px'>|</span>
+
+            <a
+               href={`https://github.com/maxim-saharov/Redux_Toolkit_RTK_Query`}
+               target='_blank' rel='noopener noreferrer'
+               className='pad-left-10px'
+            >
+               GitHub
+            </a>
+
+         </div>
+
       </div>
    )
 }
