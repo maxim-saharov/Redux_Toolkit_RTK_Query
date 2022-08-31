@@ -39,8 +39,9 @@ And you can see project on [http://localhost:3000](http://localhost:3000 )
 
 * React JSX, CSS
 * Only desktop version
-* TypeScript, Redux Toolkit, createSlice, createAsyncThunk, RTK Query examples
-* OMDb API 
+* TypeScript, Redux Toolkit, createSlice, createAsyncThunk, RTK Query examples with cache
+* JSONPlaceholder API 
+* JSON Server
 * Git, GitHub
 
 This project was created from this video  
